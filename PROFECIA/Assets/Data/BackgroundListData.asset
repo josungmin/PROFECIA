@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f57d67f9309c843bfe5a88041e9829, type: 3}
+  m_Name: BackgroundListData
+  m_EditorClassIdentifier: 
+  objectName: BackgroundList
+  backgroundSprites:
+  - {fileID: 21300000, guid: 6317442c0818e454f8d1883ce2d352e8, type: 3}
+  - {fileID: 21300000, guid: c20e1a97b5ac6ab46a58a38fd8b82814, type: 3}
+  - {fileID: 21300000, guid: d655099a4063b69459c0ae4b9c02f326, type: 3}
+  - {fileID: 21300000, guid: 852422ad04fd19a4786d473a14f13fb8, type: 3}
+  isShuffle: 0
+  floorNum: 1
+  backgrounds:
+  - backSprite: {fileID: 21300000, guid: 6317442c0818e454f8d1883ce2d352e8, type: 3}
+    audio: {fileID: 8300000, guid: 30182b6bea6c69a42a9a077507da8f7d, type: 3}
+  - backSprite: {fileID: 21300000, guid: c20e1a97b5ac6ab46a58a38fd8b82814, type: 3}
+    audio: {fileID: 8300000, guid: 11310c2cd4189d34ab5497cc0a502ef0, type: 3}
+  - backSprite: {fileID: 21300000, guid: d655099a4063b69459c0ae4b9c02f326, type: 3}
+    audio: {fileID: 8300000, guid: 334748a663dd1b74fb67d3ebe3a43b72, type: 3}
+  - backSprite: {fileID: 21300000, guid: 852422ad04fd19a4786d473a14f13fb8, type: 3}
+    audio: {fileID: 8300000, guid: 447ef823fe61aaf458d1c47c04ad4adb, type: 3}
